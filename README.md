@@ -219,27 +219,23 @@ ORDER BY Shift;
 
 ## Findings
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+- **Customer Demographics**: The dataset captures customers of varied age groups and genders, shopping across multiple categories like Clothing, Beauty, and Electronics. Average age analysis reveals key demographics for each category.
+- **Sales Volume**: The total sales volume spans 2000 transactions, with several entries exceeding a total_sale of 1000 — highlighting high-value transactions.
+- **Category Performance**: Clothing emerges as a high-volume category, while Beauty shows consistent engagement from middle-aged customers.
+- **Monthly Trends**: Monthly and yearly analysis reveals seasonal patterns. The best-selling months were identified using ranking functions, crucial for planning inventory and marketing.
+- **Order Timing Insights**: Shift-based analysis shows how order volume varies through the day (Morning, Afternoon, Evening), offering insights for workforce planning.
+- **Top Customers**: Identified top 5 customers based on lifetime value, useful for loyalty and retention strategies.
 
 ## Reports
 
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
+- **Sales Summary**: Aggregated reports by category and gender, offering insights into what drives revenue and who the key buyers are.
+- **Time-Based Trend Analysis**: Monthly and shift-based reports uncover when customers are most active and which periods generate the highest sales.
+- **Customer Segmentation**: Reports showing unique customer counts per category and identifying high-value buyers.
+- **Data Quality Report**: Identification and removal of rows with missing or null values in critical columns ensured clean analysis.
 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
-
-## How to Use
-
-1. **Clone the Repository**: Clone this project repository from GitHub.
-2. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
-4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
+This SQL project delivers a full-cycle retail data analysis workflow — from database design and data cleaning to deep business insights. Using SQL Server, it showcases practical querying for business metrics, trend detection, and customer segmentation. The insights derived provide a foundation for data-driven decision-making in retail operations, marketing, and customer management.
 
 ## Author - Srihari Dusi
 
